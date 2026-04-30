@@ -38,10 +38,11 @@ This is where you transition to AI Engineering. The LLM is just a flaky function
 ### Core Concepts to Master:
 *   **Tool Calling (Function Calling):** Writing perfect JSON schemas that force an LLM to trigger a Python function reliably.
 *   **The Model Context Protocol (MCP):** Understanding the new standardized architecture for securely connecting agents to local files, databases, and APIs.
-*   **State Machines & Graphs:** Moving beyond linear scripts to cyclical graphs using LangGraph or custom state machines.
+*   **Single-Agent Scaffold Architecture:** Moving away from lossy "Multi-Agent" handoffs toward massive pre-answer analysis scaffolds for a single agent, maximizing "intelligence density" per token.
+*   **Memory Intelligence Agent (MIA):** Implementing Manager-Planner-Executor loops with Test-Time Evolution to compress trajectories instead of relying on brute-force RAG.
 *   **Deterministic Fallbacks:** Building circuit-breakers, retry loops, and validation middleware (e.g., `llm-side-effect-firewall`).
 
-**🏆 Milestone Project:** Build a multi-agent system where Agent A gathers data, Agent B reviews it, and a deterministic Python function validates the output before saving. *(e.g., The Agent-Execution-Harness)*
+**🏆 Milestone Project:** Build a single-agent system utilizing an MIA architecture where the "Planner" surgical extracts data via MCP, and a deterministic Python function validates the output before saving. *(e.g., The Agent-Execution-Harness)*
 
 ---
 
