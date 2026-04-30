@@ -106,5 +106,6 @@ Making AI safe for Fortune 500 companies, banks, and healthcare.
 *   **Audit Trails:** WORM (Write Once, Read Many) databases to record every LLM decision for SOC2/HIPAA compliance.
 *   **Agent Shadow Mode:** Architecting deployments where AI agents analyze live production data but are physically disconnected from write-APIs.
 *   **Alignment Engineering:** Writing deterministic Python interceptors that overrule LLM hallucinations.
+*   **MECE Rule Compilation:** Using reasoning models (like GPT-o1) to extract "Mutually Exclusive, Collectively Exhaustive" IF-THEN rules from unstructured legal texts, building deterministic Business Rule Engines (BREs) instead of relying on probabilistic RAG.
 
 **🏆 Milestone Project:** Build an agent that requires a cryptographic/IAM token to access a specific database column, proving that the agent cannot breach tenant isolation. *(e.g., The GCP-IAM-MCP-Boundary)*
