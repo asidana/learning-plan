@@ -25,10 +25,11 @@ Agents are not scripts; they are persistent, asynchronous workers. You must mast
 ### Core Concepts to Master:
 *   **Serverless Computing:** Google Cloud Run and AWS Lambda. Understanding cold starts, statelessness, and container scaling.
 *   **Event-Driven Messaging:** Google Cloud Pub/Sub, Kafka, or RabbitMQ. How to decouple API receivers from heavy LLM workers.
+*   **Cloud Orchestration:** Google Cloud Workflows or AWS Step Functions. Replacing brittle Python state machines (like LangGraph) with managed YAML/JSON infrastructure for deterministic agent execution and native retries.
 *   **State Management:** Redis (for caching & session memory) and PostgreSQL (Relational data).
 *   **Vector Databases:** `pgvector`, Qdrant, or ChromaDB. Understanding Cosine Similarity, HNSW indexes, and embedding dimensions.
 
-**🏆 Milestone Project:** Create a scale-to-zero webhook receiver that drops a payload into Pub/Sub, which triggers an isolated background worker. *(e.g., The Telegram Personal Research Assistant)*
+**🏆 Milestone Project:** Create a scale-to-zero webhook receiver that drops a payload into Pub/Sub, which is deterministically orchestrated by Cloud Workflows to trigger an isolated background worker with automatic retries. *(e.g., The Telegram Personal Research Assistant)*
 
 ---
 
