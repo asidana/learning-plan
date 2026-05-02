@@ -124,5 +124,6 @@ To build systems at Microsoft or Google scale, you must move beyond deploying pr
 *   **Deep Learning Frameworks:** Mastery of **PyTorch**, **TensorFlow**, and **ONNX** for optimizing model execution pipelines.
 *   **Advanced Model Optimization:** Hands-on experience with hardware-aware quantization, layer pruning, and memory-efficient architectures (like PagedAttention and NVFP4).
 *   **High-Concurrency Scalability:** Managing thousands of simultaneous agent interactions using Kubernetes (K8s) orchestration, ensuring >99.9% uptime and strict SLAs.
+*   **The Architect Elevator (Logos × Pathos):** Communicating complex distributed systems architecture to executive stakeholders by translating "Engine Room" logic into "Penthouse" business ROI and branded visual storytelling.
 
 **🏆 Milestone Project:** Architect and deploy a scalable, multi-node Kubernetes cluster that utilizes dynamic routing to balance high-throughput inference requests across disparate GPU and CPU node pools using ONNX Runtime.
