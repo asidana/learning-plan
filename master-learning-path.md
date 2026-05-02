@@ -41,8 +41,9 @@ This is where you transition to AI Engineering. The LLM is just a flaky function
 *   **The Model Context Protocol (MCP):** Understanding the new standardized architecture for securely connecting agents to local files, databases, and APIs.
 *   **Single-Agent Scaffold Architecture:** Moving away from lossy "Multi-Agent" handoffs toward massive pre-answer analysis scaffolds for a single agent, maximizing "intelligence density" per token.
 *   **Memory Intelligence Agent (MIA):** Implementing Manager-Planner-Executor loops with Test-Time Evolution to compress trajectories instead of relying on brute-force RAG.
+*   **Spec-Driven & TDD Agent Workflows:** Forcing agents to draft rigid architectural "spec sheets" and write failing tests *before* writing implementation code, drastically reducing hallucinations.
 *   **Adversarial Debate Loops:** Architecting "Bull vs. Bear" multi-agent debate structures where agents natively challenge each other's assumptions to reduce hallucination and confirmation bias before final execution.
-*   **Deterministic Fallbacks:** Building circuit-breakers, retry loops, and validation middleware (e.g., `llm-side-effect-firewall`).
+*   **Deterministic Fallbacks & HITL:** Building circuit-breakers, retry loops, and proactive Human-in-the-Loop (HITL) validation checkpoints.
 
 **🏆 Milestone Project:** Build a single-agent system utilizing an MIA architecture where the "Planner" surgical extracts data via MCP, and a deterministic Python function validates the output before saving. *(e.g., The Agent-Execution-Harness)*
 
