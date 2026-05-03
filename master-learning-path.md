@@ -56,7 +56,7 @@ This is where you transition to AI Engineering. The LLM is just a flaky function
 *   **Memory Intelligence Agent (MIA):** Implementing Manager-Planner-Executor loops with Test-Time Evolution to compress trajectories instead of relying on brute-force RAG.
 *   **Spec-Driven & TDD Agent Workflows:** Forcing agents to draft rigid architectural "spec sheets" and write failing tests *before* writing implementation code, drastically reducing hallucinations.
 *   **Adversarial Debate Loops:** Architecting "Bull vs. Bear" multi-agent debate structures where agents natively challenge each other's assumptions to reduce hallucination and confirmation bias before final execution.
-*   **Deterministic Fallbacks & HITL:** Building circuit-breakers, retry loops, and proactive Human-in-the-Loop (HITL) validation checkpoints.
+*   **Asynchronous HITL & Cognitive Load Management:** Building "Cross-Agent Review Pipelines" to summarize massive agent-generated code PRs, and "Escalation Batchers" that group non-critical Human-in-the-Loop queries into daily digests to prevent developer burnout.
 
 **🏆 Milestone Project:** Build a single-agent system utilizing an MIA architecture where the "Planner" surgical extracts data via MCP, and a deterministic Python function validates the output before saving. *(e.g., The Agent-Execution-Harness)*
 
