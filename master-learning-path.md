@@ -82,6 +82,7 @@ The hardest frontier. Combining AI with telecom network protocols.
 *   **WebRTC:** How peer-to-peer audio streaming works (LiveKit, Daily.co). Understanding jitter buffers, packet loss, and latency.
 *   **Streaming STT & TTS:** Deepgram (Speech-to-Text) and Cartesia/ElevenLabs (Text-to-Speech) via WebSockets.
 *   **Voice Activity Detection (VAD):** Silero VAD. Understanding how to detect when a user starts speaking and how to handle "barge-ins" (interruptions).
+*   **Stream RAG & Parallel Execution:** Mastering mid-utterance tool execution. Initiating database lookups while the user is still speaking to drastically cut Time to First Audio (TTFA).
 *   **Turn-taking Logic:** The orchestration required to stop the LLM mid-generation when the user interrupts.
 
 **🏆 Milestone Project:** Build a sub-800ms latency voice bot that you can call from your browser and interrupt mid-sentence without it crashing. *(e.g., The Voice-Streaming-Orchestrator-SDK)*

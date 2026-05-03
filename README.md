@@ -10,3 +10,5 @@ This repository acts as a centralized brain for documenting learning insights, a
 - [`gcp-cloud-workflows-orchestration.md`](gcp-cloud-workflows-orchestration.md): Using Google Cloud Workflows as a deterministic infrastructure-level harness for AI agents.
 - [`openclaw-mastery.md`](openclaw-mastery.md): Key takeaways from the OpenClaw 10-day 24/7 personal AI assistant curriculum.
 - [`cognitive-load-paradox.md`](cognitive-load-paradox.md): The reality of agentic coding increasing developer cognitive load and how to architect around it via asynchronous HITL.
+- [`stream-rag-voice-latency.md`](stream-rag-voice-latency.md): Optimizing Voice AI latency by executing tool calls mid-utterance while the user is still speaking.
+- [`llm-training-stack.md`](llm-training-stack.md): Decoding the differences between SFT, RLHF, DPO, LoRA, and QLoRA for efficient model tuning.
