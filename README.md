@@ -12,3 +12,5 @@ This repository acts as a centralized brain for documenting learning insights, a
 - [`cognitive-load-paradox.md`](cognitive-load-paradox.md): The reality of agentic coding increasing developer cognitive load and how to architect around it via asynchronous HITL.
 - [`stream-rag-voice-latency.md`](stream-rag-voice-latency.md): Optimizing Voice AI latency by executing tool calls mid-utterance while the user is still speaking.
 - [`llm-training-stack.md`](llm-training-stack.md): Decoding the differences between SFT, RLHF, DPO, LoRA, and QLoRA for efficient model tuning.
+- [`containment-vs-trust-cx.md`](containment-vs-trust-cx.md): Why optimizing AI agents for containment destroys customer trust, and how to architect seamless human escalations instead.
+- [`local-ide-agent-stack.md`](local-ide-agent-stack.md): Building a zero-cost, 100% private agentic IDE stack using Opencode, LMStudio, and 30B parameter SLMs.

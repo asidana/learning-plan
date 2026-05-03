@@ -125,6 +125,7 @@ Making AI safe for Fortune 500 companies, banks, and healthcare.
 *   **Agent Shadow Mode:** Architecting deployments where AI agents analyze live production data but are physically disconnected from write-APIs.
 *   **Alignment Engineering:** Writing deterministic Python interceptors that overrule LLM hallucinations.
 *   **MECE Rule Compilation:** Using reasoning models (like GPT-o1) to extract "Mutually Exclusive, Collectively Exhaustive" IF-THEN rules from unstructured legal texts, building deterministic Business Rule Engines (BREs) instead of relying on probabilistic RAG.
+*   **Trust-Based Optimization vs. Deflection:** Designing CCaaS (Contact Center) agents that optimize for "Customer Effort" rather than "Containment," utilizing sentiment monitoring to trigger seamless, context-rich human escalations instead of rigid loops.
 
 **🏆 Milestone Project:** Build an agent that requires a cryptographic/IAM token to access a specific database column, proving that the agent cannot breach tenant isolation. *(e.g., The GCP-IAM-MCP-Boundary)*
 
