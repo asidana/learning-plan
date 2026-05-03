@@ -6,6 +6,19 @@ Moving from a "Software Engineer" to a "Cracked AI Architect" requires shifting 
 
 ---
 
+## 🏗️ Phase 0: The HLD Foundation (System Design)
+Before diving into AI, you must master the traditional High-Level Design pillars. AI systems amplify the need for rigorous infrastructure.
+
+### Core Concepts to Master:
+*   **Networking & Protocols:** WebSockets, SSE, and UDP (critical for sub-second Voice AI latency).
+*   **Load Balancing & Scaling:** Distributing thousands of agent requests across GPU nodes.
+*   **Databases & Caching:** SQL/NoSQL, cache eviction policies, and context caching to prevent LLM API bankruptcies.
+*   **Reliability Patterns:** Circuit breakers, retry loops, and bulkheads (the foundation of the Agentic Harness).
+
+**🏆 Milestone Project:** Architect a system design diagram for a multi-region chat application utilizing load balancers, caching layers, and dead letter queues.
+
+---
+
 ## 🧱 Phase 1: The Modern Full-Stack Foundation
 Before building autonomous agents, the underlying plumbing must be flawless. AI wrappers break because the foundational software engineering is weak.
 
@@ -123,6 +136,8 @@ To build systems at Microsoft or Google scale, you must move beyond deploying pr
 *   **Distributed Systems Architecture:** Designing microservices that distribute inference loads across GPU/NPU-accelerated computing clusters with minimal latency.
 *   **Deep Learning Frameworks:** Mastery of **PyTorch**, **TensorFlow**, and **ONNX** for optimizing model execution pipelines.
 *   **Advanced Model Optimization:** Hands-on experience with hardware-aware quantization, layer pruning, and memory-efficient architectures (like PagedAttention and NVFP4).
+*   **Parameter-Efficient Fine-Tuning (PEFT):** Stop burning money on full fine-tunes. Master **LoRA** and **QLoRA** to inject small trainable matrices into frozen base models.
+*   **Alignment Engineering:** Understanding the transition from SFT (Supervised Fine-Tuning) to RLHF (Reinforcement Learning from Human Feedback), and mastering **DPO (Direct Preference Optimization)** for rapid, cost-effective preference alignment.
 *   **High-Concurrency Scalability:** Managing thousands of simultaneous agent interactions using Kubernetes (K8s) orchestration, ensuring >99.9% uptime and strict SLAs.
 *   **The Architect Elevator (Logos × Pathos):** Communicating complex distributed systems architecture to executive stakeholders by translating "Engine Room" logic into "Penthouse" business ROI and branded visual storytelling.
 
