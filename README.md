@@ -14,3 +14,4 @@ This repository acts as a centralized brain for documenting learning insights, a
 - [`llm-training-stack.md`](llm-training-stack.md): Decoding the differences between SFT, RLHF, DPO, LoRA, and QLoRA for efficient model tuning.
 - [`containment-vs-trust-cx.md`](containment-vs-trust-cx.md): Why optimizing AI agents for containment destroys customer trust, and how to architect seamless human escalations instead.
 - [`local-ide-agent-stack.md`](local-ide-agent-stack.md): Building a zero-cost, 100% private agentic IDE stack using Opencode, LMStudio, and 30B parameter SLMs.
+- [`37-seminal-ai-papers.md`](37-seminal-ai-papers.md): A curated reading list of the 37 foundational research papers every "Cracked" AI Architect must know.
