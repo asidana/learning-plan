@@ -17,3 +17,4 @@ This repository acts as a centralized brain for documenting learning insights, a
 - [`37-seminal-ai-papers.md`](37-seminal-ai-papers.md): A curated reading list of the 37 foundational research papers every "Cracked" AI Architect must know.
 - [`aws-ai-first-responder.md`](aws-ai-first-responder.md): Insights on native IAM scoping for AI incident responders vs. DIY credential injection.
 - [`llm-serving-bottlenecks.md`](llm-serving-bottlenecks.md): Understanding the "Two-Phase" inference reality (Prefill vs Decode) and solving memory bandwidth limits via Disaggregation and PagedAttention.
+- [`six-file-methodology.md`](six-file-methodology.md): The context-curation framework used by Senior Engineers to guide AI coding agents predictably.

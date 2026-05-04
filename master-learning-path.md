@@ -55,6 +55,7 @@ This is where you transition to AI Engineering. The LLM is just a flaky function
 *   **Single-Agent Scaffold Architecture:** Moving away from lossy "Multi-Agent" handoffs toward massive pre-answer analysis scaffolds for a single agent, maximizing "intelligence density" per token.
 *   **Memory Intelligence Agent (MIA):** Implementing Manager-Planner-Executor loops with Test-Time Evolution to compress trajectories instead of relying on brute-force RAG.
 *   **Spec-Driven & TDD Agent Workflows:** Forcing agents to draft rigid architectural "spec sheets" and write failing tests *before* writing implementation code, drastically reducing hallucinations.
+*   **The Six-File Methodology:** Curating rigid context windows (`product_spec.md`, `tech_stack.md`, etc.) to shift an AI from being a "code generator" to an architecture-aware partner.
 *   **Adversarial Debate Loops:** Architecting "Bull vs. Bear" multi-agent debate structures where agents natively challenge each other's assumptions to reduce hallucination and confirmation bias before final execution.
 *   **Asynchronous HITL & Cognitive Load Management:** Building "Cross-Agent Review Pipelines" to summarize massive agent-generated code PRs, and "Escalation Batchers" that group non-critical Human-in-the-Loop queries into daily digests to prevent developer burnout.
 
