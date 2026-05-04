@@ -15,3 +15,5 @@ This repository acts as a centralized brain for documenting learning insights, a
 - [`containment-vs-trust-cx.md`](containment-vs-trust-cx.md): Why optimizing AI agents for containment destroys customer trust, and how to architect seamless human escalations instead.
 - [`local-ide-agent-stack.md`](local-ide-agent-stack.md): Building a zero-cost, 100% private agentic IDE stack using Opencode, LMStudio, and 30B parameter SLMs.
 - [`37-seminal-ai-papers.md`](37-seminal-ai-papers.md): A curated reading list of the 37 foundational research papers every "Cracked" AI Architect must know.
+- [`aws-ai-first-responder.md`](aws-ai-first-responder.md): Insights on native IAM scoping for AI incident responders vs. DIY credential injection.
+- [`llm-serving-bottlenecks.md`](llm-serving-bottlenecks.md): Understanding the "Two-Phase" inference reality (Prefill vs Decode) and solving memory bandwidth limits via Disaggregation and PagedAttention.

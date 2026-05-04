@@ -138,6 +138,7 @@ To build systems at Microsoft or Google scale, you must move beyond deploying pr
 *   **Distributed Systems Architecture:** Designing microservices that distribute inference loads across GPU/NPU-accelerated computing clusters with minimal latency.
 *   **Deep Learning Frameworks:** Mastery of **PyTorch**, **TensorFlow**, and **ONNX** for optimizing model execution pipelines.
 *   **Advanced Model Optimization:** Hands-on experience with hardware-aware quantization, layer pruning, and memory-efficient architectures (like PagedAttention and NVFP4).
+*   **Prefill/Decode Disaggregation:** Understanding the shift from monolithic inference to split-architecture deployments, routing compute-heavy prompts to "Prefill" GPUs and streaming KV caches over the network to memory-bound "Decode" GPUs.
 *   **Parameter-Efficient Fine-Tuning (PEFT):** Stop burning money on full fine-tunes. Master **LoRA** and **QLoRA** to inject small trainable matrices into frozen base models.
 *   **Alignment Engineering:** Understanding the transition from SFT (Supervised Fine-Tuning) to RLHF (Reinforcement Learning from Human Feedback), and mastering **DPO (Direct Preference Optimization)** for rapid, cost-effective preference alignment.
 *   **High-Concurrency Scalability:** Managing thousands of simultaneous agent interactions using Kubernetes (K8s) orchestration, ensuring >99.9% uptime and strict SLAs.
