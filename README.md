@@ -19,3 +19,5 @@ This repository acts as a centralized brain for documenting learning insights, a
 - [`llm-serving-bottlenecks.md`](llm-serving-bottlenecks.md): Understanding the "Two-Phase" inference reality (Prefill vs Decode) and solving memory bandwidth limits via Disaggregation and PagedAttention.
 - [`six-file-methodology.md`](six-file-methodology.md): The context-curation framework used by Senior Engineers to guide AI coding agents predictably.
 - [`agentic-engineering-collaboration.md`](agentic-engineering-collaboration.md): Principles for moving from "vibe coding" to structured agentic workflows via selective context, scratchpads, and `agents.md`.
+- [`agentic-org-structure.md`](agentic-org-structure.md): Understanding Paperclip AI and how to manage "Zero-Human" companies using org charts and budgets.
+- [`telephony-freeswitch-fragility.md`](telephony-freeswitch-fragility.md): Why outbound Voice AI fails at the legacy telecommunications layer (FreeSWITCH, SIP, Gateways).
