@@ -21,3 +21,4 @@ This repository acts as a centralized brain for documenting learning insights, a
 - [`agentic-engineering-collaboration.md`](agentic-engineering-collaboration.md): Principles for moving from "vibe coding" to structured agentic workflows via selective context, scratchpads, and `agents.md`.
 - [`agentic-org-structure.md`](agentic-org-structure.md): Understanding Paperclip AI and how to manage "Zero-Human" companies using org charts and budgets.
 - [`telephony-freeswitch-fragility.md`](telephony-freeswitch-fragility.md): Why outbound Voice AI fails at the legacy telecommunications layer (FreeSWITCH, SIP, Gateways).
+- [`multi-agent-private-networking.md`](multi-agent-private-networking.md): Architectural patterns for securing Agent-to-Agent (A2A) and MCP traffic inside Google Cloud VPCs.
