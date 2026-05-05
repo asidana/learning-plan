@@ -22,3 +22,4 @@ This repository acts as a centralized brain for documenting learning insights, a
 - [`agentic-org-structure.md`](agentic-org-structure.md): Understanding Paperclip AI and how to manage "Zero-Human" companies using org charts and budgets.
 - [`telephony-freeswitch-fragility.md`](telephony-freeswitch-fragility.md): Why outbound Voice AI fails at the legacy telecommunications layer (FreeSWITCH, SIP, Gateways).
 - [`multi-agent-private-networking.md`](multi-agent-private-networking.md): Architectural patterns for securing Agent-to-Agent (A2A) and MCP traffic inside Google Cloud VPCs.
+- [`platform-engineering-maturity.md`](platform-engineering-maturity.md): Assessing organizational platform engineering capabilities via the PEMM framework to maximize agentic productivity.
