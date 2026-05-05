@@ -27,3 +27,5 @@ This repository acts as a centralized brain for documenting learning insights, a
 - [`agentic-apr-modernization.md`](agentic-apr-modernization.md): How AI agents automate continuous Application Portfolio Rationalization (APR) using the TIME model.
 - [`multi-agent-private-networking.md`](multi-agent-private-networking.md): Architectural patterns for securing Agent-to-Agent (A2A) and MCP traffic inside Google Cloud VPCs.
 - [`platform-engineering-maturity.md`](platform-engineering-maturity.md): Assessing organizational platform engineering capabilities via the PEMM framework to maximize agentic productivity.
+- [`evaluation-driven-development.md`](evaluation-driven-development.md): Adopting a rigorous engineering discipline for AI agents by defining mathematical success metrics and binary evals before coding.
+- [`voice-ai-category-map.md`](voice-ai-category-map.md): A multi-disciplinary breakdown of the Voice AI landscape and the "Vibe Training" quality-control paradigm.

@@ -70,6 +70,7 @@ This is where you transition to AI Engineering. The LLM is just a flaky function
 *   **The 6 Definitive RAG Evals:** Mastering the specific mathematical relationships between Question, Context, and Answer ($C \mid Q$, $A \mid C$, $A \mid Q$, $C \mid A$, $Q \mid C$, and Recall).
 *   **Golden Datasets:** Curating high-quality, human-verified "Gold" examples for calibration.
 *   **LLM-as-a-Judge Calibration:** Using a powerful model (GPT-4o) to execute **Binary (Pass/Fail) Evals** rather than noisy Likert scales.
+*   **Vibe Training:** Mastering the Plurai method of training smaller, specialized models to act as high-fidelity judges for main agents, ensuring adherence to complex business and compliance rules.
 *   **3-Layer Evaluation Monitor:** Instrumenting the **Reasoning Layer** (intent/logic), **Action Layer** (tool/API calls), and **Execution Layer** (outcomes/cost) to diagnose systemic agent failures.
 *   **Agent Simulation & Stress Testing:** Transitioning from static testing to dynamic simulation. Building "Policy Graphs" to generate high-fidelity synthetic datasets and using "User Agents" for multi-turn interaction testing.
 *   **Tracing & Observability:** Langfuse or Phoenix. Tracing exactly how many tokens were used, what tools were called, and where latency occurred in the agent loop.
