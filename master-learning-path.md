@@ -74,7 +74,8 @@ This is where you transition to AI Engineering. The LLM is just a flaky function
 *   **Risk-Based Coverage:** Identifying high-stakes decision points (financial, medical, compliance) and enforcing 100% evaluation rigor for those specific agent actions.
 *   **LLM-as-a-Judge Calibration:** Using a powerful model (GPT-4o) to execute **Binary (Pass/Fail) Evals** rather than noisy Likert scales.
 *   **Vibe Training:** Mastering the Plurai method of training smaller, specialized models to act as high-fidelity judges for main agents, ensuring adherence to complex business and compliance rules.
-*   **3-Layer Evaluation Monitor:** Instrumenting the **Reasoning Layer** (intent/logic), **Action Layer** (tool/API calls), and **Execution Layer** (outcomes/cost) to diagnose systemic agent failures.
+*   **3-Layer Evaluation Monitor (AWS Model):** Instrumenting the **Model Layer** (latency/cost), **Component Layer** (planning score, tool selection accuracy, grounding, coherence), and **Outcome Layer** (task success/safety) to localize and diagnose systemic agent failures.
+*   **Trace-Based Regression Testing:** Replaying captured production traces against updated agent logic to ensure reasoning steps and tool-call sequences remain consistent.
 *   **Agent Simulation & Stress Testing:** Transitioning from static testing to dynamic simulation. Building "Policy Graphs" to generate high-fidelity synthetic datasets and using "User Agents" for multi-turn interaction testing.
 *   **Tracing & Observability:** Langfuse or Phoenix. Tracing exactly how many tokens were used, what tools were called, and where latency occurred in the agent loop.
 *   **RAG Optimization:** Advanced chunking, cross-encoder re-ranking, and hybrid search (Vector + Keyword).
