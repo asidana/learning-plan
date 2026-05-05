@@ -64,17 +64,18 @@ This is where you transition to AI Engineering. The LLM is just a flaky function
 ---
 
 ## 🧪 Phase 4: CI/CD for AI (Evaluations & Observability)
-"Vibe checking" prompts does not work in production. You must mathematically prove your agent works.
+"Vibe checking" prompts does not work in production. You must mathematically prove your agent works using **Evaluation-Driven Development (EDD)**.
 
 ### Core Concepts to Master:
-*   **Golden Datasets:** Creating programmatic ground-truth datasets for automated testing.
-*   **LLM-as-a-Judge:** Using a powerful model (GPT-4o) to evaluate the output of a smaller model based on strict criteria.
+*   **The 6 Definitive RAG Evals:** Mastering the specific mathematical relationships between Question, Context, and Answer ($C \mid Q$, $A \mid C$, $A \mid Q$, $C \mid A$, $Q \mid C$, and Recall).
+*   **Golden Datasets:** Curating high-quality, human-verified "Gold" examples for calibration.
+*   **LLM-as-a-Judge Calibration:** Using a powerful model (GPT-4o) to execute **Binary (Pass/Fail) Evals** rather than noisy Likert scales.
 *   **3-Layer Evaluation Monitor:** Instrumenting the **Reasoning Layer** (intent/logic), **Action Layer** (tool/API calls), and **Execution Layer** (outcomes/cost) to diagnose systemic agent failures.
 *   **Agent Simulation & Stress Testing:** Transitioning from static testing to dynamic simulation. Building "Policy Graphs" to generate high-fidelity synthetic datasets and using "User Agents" for multi-turn interaction testing.
 *   **Tracing & Observability:** Langfuse or Phoenix. Tracing exactly how many tokens were used, what tools were called, and where latency occurred in the agent loop.
 *   **RAG Optimization:** Advanced chunking, cross-encoder re-ranking, and hybrid search (Vector + Keyword).
 
-**🏆 Milestone Project:** Implement a 3-layer evaluation monitor for a complex agent that tracks intent accuracy, tool parameter correctness, and task completion rate across a golden dataset.
+**🏆 Milestone Project:** Implement a complete EDD pipeline for a RAG agent that achieves >95% Faithfulness and Answer Relevance scores on a 20-case gold dataset using an automated binary judge.
 
 ---
 
