@@ -30,3 +30,4 @@ This repository acts as a centralized brain for documenting learning insights, a
 - [`evaluation-driven-development.md`](evaluation-driven-development.md): Adopting a rigorous engineering discipline for AI agents by defining mathematical success metrics and binary evals before coding.
 - [`voice-ai-category-map.md`](voice-ai-category-map.md): A multi-disciplinary breakdown of the Voice AI landscape and the "Vibe Training" quality-control paradigm.
 - [`agentic-qa-trends-2026.md`](agentic-qa-trends-2026.md): Modern best practices for AI evaluation, shifting from single prompts to multi-turn trajectory simulation and risk-based coverage.
+- [`multidimensional-ai-quality.md`](multidimensional-ai-quality.md): Why Accuracy is not enough for GenAI and how to design 7-dimensional judgment systems.

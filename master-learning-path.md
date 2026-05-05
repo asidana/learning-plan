@@ -68,6 +68,7 @@ This is where you transition to AI Engineering. The LLM is just a flaky function
 
 ### Core Concepts to Master:
 *   **The 6 Definitive RAG Evals:** Mastering the specific mathematical relationships between Question, Context, and Answer ($C \mid Q$, $A \mid C$, $A \mid Q$, $C \mid A$, $Q \mid C$, and Recall).
+*   **Multidimensional Judgment Systems:** Designing evaluation suites that go beyond accuracy to measure the 7 vectors of user value: Intent Resolution, Instruction Adherence, Relevance, Accuracy, Completeness, Actionability, and Safety.
 *   **Golden Datasets:** Curating high-quality, human-verified "Gold" examples for calibration.
 *   **Multi-Turn Trajectory Testing:** Moving beyond single prompts to evaluate 10-20 turn reasoning loops, measuring "Branching Accuracy" and "Self-Correction" capabilities.
 *   **Risk-Based Coverage:** Identifying high-stakes decision points (financial, medical, compliance) and enforcing 100% evaluation rigor for those specific agent actions.
