@@ -69,6 +69,7 @@ This is where you transition to AI Engineering. The LLM is just a flaky function
 ### Core Concepts to Master:
 *   **Golden Datasets:** Creating programmatic ground-truth datasets for automated testing.
 *   **LLM-as-a-Judge:** Using a powerful model (GPT-4o) to evaluate the output of a smaller model based on strict criteria.
+*   **Agent Simulation & Stress Testing:** Transitioning from static testing to dynamic simulation. Building "Policy Graphs" to generate high-fidelity synthetic datasets and using "User Agents" for multi-turn interaction testing.
 *   **Tracing & Observability:** Langfuse or Phoenix. Tracing exactly how many tokens were used, what tools were called, and where latency occurred in the agent loop.
 *   **RAG Optimization:** Advanced chunking, cross-encoder re-ranking, and hybrid search (Vector + Keyword).
 
