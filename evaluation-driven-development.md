@@ -28,6 +28,15 @@ Instead of generic "similarity" scores, measure the specific relationships betwe
 
 ---
 
+## 🧭 The Leadership Layer: Conversational Capital
+Beyond mathematical RAG metrics, architects must evaluate the **Trust Ledger** of the interaction.
+
+1.  **Deposits:** Interactions that earn trust through empathy, proactive honesty ("I don't know the answer, let me find a human"), and clear resolution.
+2.  **Withdrawals:** Interactions that destroy trust through faked confidence, robotic ignorance of user emotion, or circular loops.
+3.  **The Axiom:** In Agentic AI, neutral interactions do not exist. You are either building brand equity or accruing "content debt."
+
+---
+
 ## 🏛️ Enterprise Impact: Avoiding "Workslop"
 The Nous Group research warns that high AI adoption metrics often mask **"Workslop"**—low-value AI content that creates more work for human reviewers.
 

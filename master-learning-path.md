@@ -138,6 +138,7 @@ Making AI safe for Fortune 500 companies, banks, and healthcare.
 *   **MECE Rule Compilation:** Using reasoning models (like GPT-o1) to extract "Mutually Exclusive, Collectively Exhaustive" IF-THEN rules from unstructured legal texts, building deterministic Business Rule Engines (BREs) instead of relying on probabilistic RAG.
 *   **Trust-Based Optimization vs. Deflection:** Designing CCaaS (Contact Center) agents that optimize for "Customer Effort" rather than "Containment," utilizing sentiment monitoring to trigger seamless, context-rich human escalations instead of rigid loops.
 *   **The "Zero-Human" Organization (Paperclip):** Orchestrating swarms of agents using traditional HR concepts—implementing visual org charts, strict token budgeting per role, and layered governance for autonomous departments.
+*   **Conversational Capital & AXD:** Designing evaluation frameworks that measure the **Trust Ledger** (deposits vs. withdrawals) and prioritize **Agentic Experience Design (AXD)**—engineering agents to fail gracefully and escalate proactively.
 *   **Multi-Agent Private Networking:** Designing secure VPC perimeters, Private Service Connect (PSC), and Direct VPC egress routing to keep agent-to-agent (A2A) and MCP tool traffic strictly off the public internet.
 *   **Platform Engineering Maturity (PEMM):** Evaluating and evolving organizational capabilities across five pillars (Investment, Adoption, Interface, Operations, Measurement) to transition from ad-hoc agent scripts to a strategic, self-service Internal Agent Platform.
 
