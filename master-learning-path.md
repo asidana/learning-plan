@@ -69,11 +69,12 @@ This is where you transition to AI Engineering. The LLM is just a flaky function
 ### Core Concepts to Master:
 *   **Golden Datasets:** Creating programmatic ground-truth datasets for automated testing.
 *   **LLM-as-a-Judge:** Using a powerful model (GPT-4o) to evaluate the output of a smaller model based on strict criteria.
+*   **3-Layer Evaluation Monitor:** Instrumenting the **Reasoning Layer** (intent/logic), **Action Layer** (tool/API calls), and **Execution Layer** (outcomes/cost) to diagnose systemic agent failures.
 *   **Agent Simulation & Stress Testing:** Transitioning from static testing to dynamic simulation. Building "Policy Graphs" to generate high-fidelity synthetic datasets and using "User Agents" for multi-turn interaction testing.
 *   **Tracing & Observability:** Langfuse or Phoenix. Tracing exactly how many tokens were used, what tools were called, and where latency occurred in the agent loop.
 *   **RAG Optimization:** Advanced chunking, cross-encoder re-ranking, and hybrid search (Vector + Keyword).
 
-**🏆 Milestone Project:** Implement a CI pipeline that runs 50 historical stock market scenarios against your agent and outputs a pass/fail accuracy score. *(e.g., The Agent-Regression-Tester)*
+**🏆 Milestone Project:** Implement a 3-layer evaluation monitor for a complex agent that tracks intent accuracy, tool parameter correctness, and task completion rate across a golden dataset.
 
 ---
 
@@ -124,6 +125,8 @@ Making AI safe for Fortune 500 companies, banks, and healthcare.
 ### Core Concepts to Master:
 *   **Identity and Access Management (IAM):** Restricting agent tool-use at the cloud provider level (Principle of Least Privilege).
 *   **Audit Trails:** WORM (Write Once, Read Many) databases to record every LLM decision for SOC2/HIPAA compliance.
+*   **Security-Led Evaluation (Red-Teaming):** Transitioning from QA-led to Security-led evals, measuring the "Capability-Escape Rate" through release-bound adversarial rotations.
+*   **Continuous Application Rationalization (APR):** Deploying "Scout Agents" to autonomously map and score 1,000+ app portfolios using the TIME model (Tolerate, Invest, Migrate, Eliminate).
 *   **Agent Shadow Mode:** Architecting deployments where AI agents analyze live production data but are physically disconnected from write-APIs.
 *   **Alignment Engineering:** Writing deterministic Python interceptors that overrule LLM hallucinations.
 *   **MECE Rule Compilation:** Using reasoning models (like GPT-o1) to extract "Mutually Exclusive, Collectively Exhaustive" IF-THEN rules from unstructured legal texts, building deterministic Business Rule Engines (BREs) instead of relying on probabilistic RAG.

@@ -22,5 +22,8 @@ This repository acts as a centralized brain for documenting learning insights, a
 - [`agentic-engineering-collaboration.md`](agentic-engineering-collaboration.md): Principles for moving from "vibe coding" to structured agentic workflows via selective context, scratchpads, and `agents.md`.
 - [`agentic-org-structure.md`](agentic-org-structure.md): Understanding Paperclip AI and how to manage "Zero-Human" companies using org charts and budgets.
 - [`telephony-freeswitch-fragility.md`](telephony-freeswitch-fragility.md): Why outbound Voice AI fails at the legacy telecommunications layer (FreeSWITCH, SIP, Gateways).
+- [`ai-evals-security-vs-qa.md`](ai-evals-security-vs-qa.md): Reconceptualizing AI evaluation as a continuous security red-teaming exercise.
+- [`multi-layer-agent-eval.md`](multi-layer-agent-eval.md): A 3-layer framework for evaluating the Reasoning, Action, and Execution layers of an agent.
+- [`agentic-apr-modernization.md`](agentic-apr-modernization.md): How AI agents automate continuous Application Portfolio Rationalization (APR) using the TIME model.
 - [`multi-agent-private-networking.md`](multi-agent-private-networking.md): Architectural patterns for securing Agent-to-Agent (A2A) and MCP traffic inside Google Cloud VPCs.
 - [`platform-engineering-maturity.md`](platform-engineering-maturity.md): Assessing organizational platform engineering capabilities via the PEMM framework to maximize agentic productivity.
